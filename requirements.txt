@@ -1,0 +1,28 @@
+# In order to run Spark pipelines on Windows you need:
+#
+# 1. Python: https://www.python.org/downloads/
+# 2. JDK: https://www.oracle.com/in/java/technologies/downloads/#jdk19-windows
+# 3. Spark: https://spark.apache.org/downloads.html
+#
+# Set Environment Variables:
+
+# HADOOP_HOME- C:\hadoop
+# JAVA_HOME- C:\java\jdk
+# SPARK_HOME- C:\spark\spark-3.3.1-bin-hadoop2
+# PYTHONPATH- %SPARK_HOME%\python;%SPARK_HOME%\python\lib\py4j-0.10.9-src;%PYTHONPATH%
+
+# Set Required Paths:
+
+# %SPARK_HOME%\bin
+# %HADOOP_HOME%\bin
+# %JAVA_HOME%\bin
+
+findspark==2.0.1
+numpy==1.25.1
+pandas==2.0.3
+py4j==0.10.9.5
+pyspark==3.3.2
+python-dateutil==2.8.2
+pytz==2023.3
+six==1.16.0
+tzdata==2023.3
