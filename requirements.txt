@@ -3,7 +3,8 @@
 # 1. Python: https://www.python.org/downloads/
 # 2. JDK: https://www.oracle.com/in/java/technologies/downloads/#jdk19-windows
 # 3. Spark: https://spark.apache.org/downloads.html
-#
+# 4. WinUtils for Windos: https://github.com/steveloughran/winutils
+
 # Set Environment Variables:
 
 # HADOOP_HOME- C:\hadoop
